@@ -1,0 +1,159 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>1152</x><y>144</y><w>168</w><h>40</h></coordinates><panel_attributes>App
+--
+-main(String[] args)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1152</x><y>232</y><w>168</w><h>936</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt; Peluqueria
+--
+- BJhon: JButton
+- Caballero1: JLabel
+- RCaballero1: JTextField
+- TCaballero1: JLabel
+- Dama1: JLabel
+- RDama1: JTextField
+- TDama1: JLabel
+- Tintura1: JLabel
+- RTintura1: JTextField
+- TTintura1: JLabel
+- Peinado1: JLabel
+- RPeinado1: JTextField
+- TPeinado1: JLabel
+- Servicios1: JLabel
+- RServicios1: JTextField
+- Recaudado1: JLabel
+- TRecaudado1: JLabel
+- BSeraphina: JButton
+- Caballero2: JLabel
+- RCaballero2: JTextField
+- TCaballero2: JLabel
+- Dama2: JLabel
+- RDama2: JTextField
+- TDama2: JLabel
+- Tintura2: JLabel
+- RTintura2: JTextField
+- TTintura2: JLabel
+- Peinado2: JLabel
+- RPeinado2: JTextField
+- TPeinado2: JLabel
+- Servicios2: JLabel
+- RServicios2: JTextField
+- Recaudado2: JLabel
+- TRecaudado2: JLabel
+- BArlo: JButton
+- Caballero3: JLabel
+- RCaballero3: JTextField
+- TCaballero3: JLabel
+- Dama3: JLabel
+- RDama3: JTextField
+- TDama3: JLabel
+- Tintura3: JLabel
+- RTintura3: JTextField
+- TTintura3: JLabel
+- Peinado3: JLabel
+- RPeinado3: JTextField
+- TPeinado3: JLabel
+- Servicios3: JLabel
+- RServicios3: JTextField
+- Recaudado3: JLabel
+- TRecaudado3: JLabel
+- BIsen: JButton
+- Caballero4: JLabel
+- RCaballero4: JTextField
+- TCaballero4: JLabel
+- Dama4: JLabel
+- RDama4: JTextField
+- TDama4: JLabel
+- Tintura4: JLabel
+- RTintura4: JTextField
+- TTintura4: JLabel
+- Peinado4: JLabel
+- RPeinado4: JTextField
+- TPeinado4: JLabel
+- Servicios4: JLabel
+- RServicios4: JTextField
+- Recaudado4: JLabel
+- TRecaudado4: JLabel
+- BInicio: JButton
+- BTotales: JButton
+- Bsalir: JButton
+- IJhon: JLabel
+- ISeraphina: JLabel
+- IArlo: JLabel
+- IIsen: JLabel
+- lUniversidad: JLabel</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1808</x><y>384</y><w>168</w><h>72</h></coordinates><panel_attributes>Valores
+--
+- caballero: int
+- dama: int
+- tintura: int
+- peinado: int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1376</x><y>944</y><w>168</w><h>40</h></coordinates><panel_attributes>Total
+--
++ Total1()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1432</x><y>0</y><w>168</w><h>192</h></coordinates><panel_attributes>Class Jhon
+--
+- servicios: int
+- total: int
++ getCaballero1(): int
++ setCaballero1(int): void
++ getDama1(): int
++ setDama1(int): void
++ getTintura1(): int
++ setTintura1(int): void
++ getPeinado1(): int
++ setPeinado1(int): void
++ getServicios1(): int
++ setServicios1(int): void
++ getTotal1(): int
++ setTotal1(int): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1432</x><y>208</y><w>168</w><h>192</h></coordinates><panel_attributes>Class Seraphina
+--
+- servicios: int
+- total: int
++ getCaballero2(): int
++ setCaballero2(int): void
++ getDama2(): int
++ setDama2(int): void
++ getTintura2(): int
++ setTintura2(int): void
++ getPeinado2(): int
++ setPeinado2(int): void
++ getServicios2(): int
++ setServicios2(int): void
++ getTotal2(): int
++ setTotal2(int): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1432</x><y>416</y><w>168</w><h>192</h></coordinates><panel_attributes>Class Arlo
+--
+- servicios: int
+- total: int
++ getCaballero3(): int
++ setCaballero3(int): void
++ getDama3(): int
++ setDama3(int): void
++ getTintura3(): int
++ setTintura3(int): void
++ getPeinado3(): int
++ setPeinado3(int): void
++ getServicios3(): int
++ setServicios3(int): void
++ getTotal3(): int
++ setTotal3(int): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1432</x><y>616</y><w>168</w><h>192</h></coordinates><panel_attributes>Class Isen
+--
+- servicios: int
+- total: int
++ getCaballero4(): int
++ setCaballero4(int): void
++ getDama4(): int
++ setDama4(int): void
++ getTintura4(): int
++ setTintura4(int): void
++ getPeinado4(): int
++ setPeinado4(int): void
++ getServicios4(): int
++ setServicios4(int): void
++ getTotal4(): int
++ setTotal4(int): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1592</x><y>0</y><w>232</w><h>432</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>270;520;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1592</x><y>416</y><w>232</w><h>32</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>270;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1592</x><y>440</y><w>232</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>270;10;10;230</additional_attributes></element><element><id>Relation</id><coordinates><x>1312</x><y>944</y><w>80</w><h>24</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1224</x><y>176</y><w>24</w><h>72</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1600</x><y>960</y><w>168</w><h>80</h></coordinates><panel_attributes>Total1
+--
++ Total()
+- sumaServicios(int, int, int, int):
+ int
+- sumaRecaudado(int, int, int, int): 
+ int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1536</x><y>960</y><w>80</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1600</x><y>216</y><w>224</w><h>224</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>260;260;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1312</x><y>0</y><w>136</w><h>280</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>150;10;10;330</additional_attributes></element><element><id>Relation</id><coordinates><x>1312</x><y>208</y><w>136</w><h>112</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>150;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>1312</x><y>416</y><w>136</w><h>24</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>150;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1312</x><y>616</y><w>136</w><h>24</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>150;10;10;10</additional_attributes></element><element><id>UMLActor</id><coordinates><x>32</x><y>336</y><w>48</w><h>88</h></coordinates><panel_attributes>Cliente</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLObject</id><coordinates><x>112</x><y>200</y><w>360</w><h>456</h></coordinates><panel_attributes>Peluqueria
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>144</x><y>256</y><w>88</w><h>32</h></coordinates><panel_attributes>Ingresar Jhon</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>144</x><y>312</y><w>88</w><h>32</h></coordinates><panel_attributes>Ingresar Seraphina</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>144</x><y>368</y><w>88</w><h>32</h></coordinates><panel_attributes>Ingresar Arlo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>144</x><y>416</y><w>88</w><h>32</h></coordinates><panel_attributes>Ingresar Isen</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>64</x><y>264</y><w>96</w><h>104</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>64</x><y>320</y><w>96</w><h>48</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>64</x><y>344</y><w>96</w><h>56</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>64</x><y>344</y><w>96</w><h>104</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;110;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>144</x><y>472</y><w>144</w><h>40</h></coordinates><panel_attributes>Iniciar Dia, poner todo en 0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>144</x><y>528</y><w>80</w><h>32</h></coordinates><panel_attributes>Total General</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>144</x><y>592</y><w>80</w><h>32</h></coordinates><panel_attributes>Salir</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>64</x><y>344</y><w>96</w><h>160</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;180;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>64</x><y>344</y><w>96</w><h>216</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;250;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>64</x><y>344</y><w>96</w><h>280</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;330;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>336</x><y>376</y><w>80</w><h>32</h></coordinates><panel_attributes>Operaciones</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>264</y><w>128</w><h>144</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>140;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>320</y><w>128</w><h>88</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>140;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>376</y><w>128</w><h>32</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>140;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>384</y><w>128</w><h>64</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>140;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>400</y><w>176</w><h>160</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;180;200;180;200;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>232</x><y>688</y><w>80</w><h>32</h></coordinates><panel_attributes>Fin del programa</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>616</y><w>112</w><h>88</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;90;10;10</additional_attributes></element></diagram>
